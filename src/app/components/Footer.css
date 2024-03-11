@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    padding-top: 4rem;
+}
+.last-comp{
+    background-color: #d7d5d8;
+    text-align: center; 
+}
+.fcom{
+    margin-left: 4rem;
+}
+.fcomp{
+    margin-left: 8rem;
+}
+.invite-btn{
+    background-color: #8064A2;
+    border-radius: 0 7px 7px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer{
+        display: flex;
+    }
+    .fcom{
+        margin-left: 1rem;
+    }
+    .fcomp{
+        margin-left: 4rem;
+    }
+}
+@media (max-width: 767px) {
+    .footer{
+        display: block;
+        margin-left: 0.5rem;
+        padding: 0%;
+        
+    }
+    .fcom{
+        margin-left: 0%;
+        margin-top: 0.4rem;
+    }
+    .fcomp{
+        margin-left: 0%;
+        margin-top: 1rem;
+    }
+}

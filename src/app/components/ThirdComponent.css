@@ -1,0 +1,32 @@
+.audio{
+    width: 60%;
+}
+.audiocomp{
+    background-color: #f7f5f9;
+    width: 900px;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.tb{
+    display: flex;
+}
+.hobby{
+    background-color: #d6e7ec;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .audiocomp{
+        width: 700px;
+        margin-left: 8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .audiocomp{
+        width: 350px;
+        margin-left: 2rem;
+    }
+    .tb{
+        display: block;
+    }
+}

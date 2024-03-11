@@ -1,0 +1,92 @@
+.compo{
+    border:1px solid  #8064A2;
+    width: 500px;
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.btnn{
+    border: 1px solid  #8064A2;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+}
+.twocomp{
+    display: flex;
+}
+.divone{
+    margin-bottom: 1rem;
+}
+.addYO{
+    border:1px solid  #8064A2;
+    width: 900px;
+    padding: 2rem;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    
+}
+.add-y-own{
+    background-color: #F7FDFF;
+    height: 300px;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .twocomp{
+        display: flex;
+    }
+    .addYO{
+        border:1px solid  #8064A2;
+        width: 700px;
+        padding: 2rem;
+        margin-left: 8rem;
+        margin-top: 2rem;
+        
+    }
+}
+@media (max-width: 767px) {
+    .twocomp{
+        display: block;
+    }
+    .compo{
+        border:1px solid #8064A2;
+        width: 350px;
+        margin-top: 1rem;
+        padding: 2rem;
+        margin-left: 0rem;
+        
+    }
+    .four-comp{
+        display: grid;
+        place-items: center;
+        margin-top: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .divone{
+        margin-left: 6rem;
+    }
+    .btnn{
+        border: 1px solid  #8064A2;
+        padding-left:5.5rem ;
+        padding-right:5.5rem ;
+    }
+    .addYO{
+        display: grid;
+        place-items: center;
+        border:1px solid  #8064A2;
+        width: 350px;
+        padding: 2rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .add-y-own{
+        background-color: #F7FDFF;
+        height: 350px;
+        padding: 0.1rem;
+        margin-top: 1rem;
+    }
+}

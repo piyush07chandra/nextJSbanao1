@@ -1,0 +1,79 @@
+.fcimg{
+    max-width: 100%; 
+    display: block; 
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.first-comp{
+    background-color: #F7F5F9;
+    width: 100%;
+    display: flex;
+    
+}
+.form{
+    height: 500px;
+    width: 450px;
+}
+.input{
+    width: 92%;
+}
+.forgot{
+    margin-left: 10rem;
+}
+.continue{
+    padding-left: 11rem ;
+    padding-right:11rem ;
+    border:1px solid black;
+}
+.agree-continue{
+    padding-left: 8.8rem ;
+    padding-right:8.8rem ;
+    background-color: #8064A2;
+    color: white;
+    border:1px solid black;
+}
+/* Media query for tablet screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .first-comp{
+        display: block;
+       
+    }
+    
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 767px) {
+    .first-comp{
+        display: block;
+        width: 100%
+    }
+    .form{
+        height: 500px;
+        width: 300px;
+    }
+    .continue{
+        padding-left: 7.2rem ;
+        padding-right:7.2rem ;
+    }
+    .fcimg{
+        height:300px ;
+        width:350px ;
+        margin-right: 0rem;
+        margin-left: 2rem;
+        max-width: 100%;
+    }
+    .forgot{
+        margin-left: 2rem;
+      
+    }
+    .input{
+        width: 100%;
+    }
+    .agree-continue{
+        padding-left: 4.7rem ;
+        padding-right:4.7rem ;
+    }
+    .signLog-btn{
+        margin-left: 4rem;
+    }
+  }
